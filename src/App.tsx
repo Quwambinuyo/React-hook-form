@@ -5,7 +5,7 @@ import Example4 from "./examples/Example4";
 
 const App = () => {
   return (
-    <div className=" p-6 flex flex-wrap gap-x-2 gap-y-2">
+    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
       <Example1 />
       <Example2 />
       <Example3 />

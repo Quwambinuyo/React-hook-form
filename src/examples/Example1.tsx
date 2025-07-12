@@ -33,7 +33,7 @@ const Example1 = () => {
 
   return (
     <form
-      className="flex flex-col gap-3 w-full max-w-sm p-6 rounded-lg bg-white shadow-md"
+      className="flex flex-col gap-3  max-w-sm h-full w-full  p-6 rounded-lg bg-white shadow-md"
       onSubmit={handleSubmit(onSubmit)}
     >
       <input

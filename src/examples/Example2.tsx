@@ -18,7 +18,7 @@ const Example2 = () => {
       onSubmit={handleSubmit((data) => {
         console.log(data);
       })}
-      className="flex flex-col gap-3 w-full max-w-sm p-6 rounded-lg bg-white shadow-md"
+      className="flex flex-col gap-3 w-full max-w-sm h-full  p-6 rounded-lg bg-white shadow-md"
     >
       <input
         {...register("firstName", { required: "This is required" })}
